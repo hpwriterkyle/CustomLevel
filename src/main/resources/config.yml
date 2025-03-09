@@ -1,0 +1,9 @@
+#just config
+default:
+  encover-vanilla: true
+levels:
+  - 10000
+  - 20000
+  - 300000
+  - 40000000
+  - 500000000

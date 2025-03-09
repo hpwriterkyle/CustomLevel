@@ -1,0 +1,6 @@
+name: CustomLevel
+version: '${project.version}'
+main: top.vrilhyc.plugins.customlevel.CustomLevel
+api-version: '1.18'
+commands:
+  customlevel:
