@@ -18,6 +18,6 @@ public class ListLadder implements LevelLadder{
 
     @Override
     public boolean validLevel(long level) {
-        return level>=list.size();
+        return level<list.size()&&level>=0;
     }
 }

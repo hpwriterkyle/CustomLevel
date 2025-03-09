@@ -15,7 +15,7 @@ public interface LevelLadder {
         double experiences = experience;
         int level = (int)levelStorager.getLevel();
         for(;experiences>=0;level++){
-            if(validLevel(level)){
+            if(!validLevel(level)){
                 levelStorager.setExperience(levelStorager.getExperience()+experience);
                 levelStorager.setLevel(level);
                 return true;
